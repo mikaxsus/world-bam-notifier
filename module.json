@@ -1,0 +1,7 @@
+{
+	"name": "let-me-pot",
+	"author": "teralove",
+	"fork": "mikaxsus",
+	"description": "World BAM notifier.",
+	"servers": ["https://raw.githubusercontent.com/mikaxsus/world-bam-notifier/master/"]
+}
