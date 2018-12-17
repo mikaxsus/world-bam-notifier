@@ -31,7 +31,7 @@ module.exports = function WorldBamNotifier(dispatch) {
 		for (let i = 0, len = bossId.length; i < len; ++i) {
 			const boss = bossId[i];
 			if (templateId === boss[0] && huntingZoneId === boss[1]) {
-				sendMsg(bossName[0].msg);
+				sendMsg(bossName[templateId].msg);
 			}
 		}
 	});
