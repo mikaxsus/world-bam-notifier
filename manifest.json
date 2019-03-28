@@ -1,11 +1,11 @@
 {
 	"files": {
-		"index.js": "9a71ed87678ad94a885b9c0441c393b8a7a233d2227ef8032445280ac334e4f6",
+		"index.js": "1e6556a18441e1fd0e3a7177c22902f94142a10dc0a5c2bc2fc8b0d50f75dd47",
 		"module.json": "ca9e94f3592ed3ae9e4a980b108274d5f51c064a54145087e6b5084ab6c320b0",
-		"README.md": "d8bb93bfec2c685f22d1d5c8546531bc34bafcc5be2c2fa80afd3665993f869d"
+		"README.md": "cdee1580b38b873fd2a5b948249681f08f301330d3cbe095d77dcda3de25ddcf"
 	},
 	"defs": {
 		"C_CHAT": 1,
-		"S_SPAWN_NPC": 5
+		"S_SPAWN_NPC": 11
 	}
 }
