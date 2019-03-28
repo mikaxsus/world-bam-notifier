@@ -31,7 +31,7 @@ module.exports = function WorldBamNotifier(mod) {
 	mod.hook("S_SPAWN_NPC", 11, event => {
 		const { templateId, huntingZoneId } = event;
 		for (let i = 0, len = bossId.length; i < len; ++i) {
-			var boss = bossId[i].split(",");
+			const boss = bossId[i];
 			if (templateId === boss[0] && huntingZoneId === boss[1]) {
 				sendMsg(bossName[templateId].msg);
 			}
